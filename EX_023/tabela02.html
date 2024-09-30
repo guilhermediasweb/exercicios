@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(180, 44, 180, 0.795);
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1;
+            background-color: blueviolet;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: blueviolet;
+            color: white;
+        }
+        td.num{
+            text-align: center;
+        }
+        td.estado{
+            text-align: center;
+            
+        }
+        td.porc{
+            text-align: center;
+        }
+        td.total{
+            text-align: center;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        
+       
+     
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Repúblicas Federativas do Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">Porcentagem%</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td class="estado">São Paulo</td>
+                <td class="num">49.000.000</td>
+                <td class="porc">49%</td>
+            </tr>
+
+            <tr>
+                <td class="estado">Minas Gerais</td>
+                <td class="num">11.000.000</td>
+                <td class="porc">11%</td>
+            </tr>
+
+            <tr>
+                <td class="estado">Rio de Janeiro</td>
+                <td class="num">5.000.000</td>
+                <td class="porc">5%</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>00000</strong></td>
+                <td class="total"><strong>100%</strong></td>
+
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ducimus a, dolor quas molestias temporibus? Error, cumque sed tenetur laboriosam id eos illum consequuntur consequatur, deleniti provident dolorum esse enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo perferendis nihil voluptatem nobis fugiat! Similique voluptas quia eius magni reiciendis, pariatur adipisci. Aliquam fugit amet itaque architecto consectetur assumenda. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nemo quasi odit praesentium blanditiis laboriosam deleniti voluptatem eum vitae illo a soluta itaque sit ab provident, ex alias? Hic, sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repudiandae quibusdam quam repellendus ea? Nemo reprehenderit enim cupiditate deserunt unde, laudantium, totam odit adipisci pariatur et sed? Suscipit, quia quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel voluptatibus repellat, ipsa ipsam non excepturi corrupti architecto expedita praesentium rerum mollitia numquam? Perferendis quasi cum dolores. Molestiae, perferendis vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quisquam in est quasi, quam, nostrum ducimus corporis quia exercitationem, nesciunt molestiae reprehenderit tenetur dolores illum sapiente inventore veniam deleniti voluptates!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ducimus a, dolor quas molestias temporibus? Error, cumque sed tenetur laboriosam id eos illum consequuntur consequatur, deleniti provident dolorum esse enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo perferendis nihil voluptatem nobis fugiat! Similique voluptas quia eius magni reiciendis, pariatur adipisci. Aliquam fugit amet itaque architecto consectetur assumenda. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nemo quasi odit praesentium blanditiis laboriosam deleniti voluptatem eum vitae illo a soluta itaque sit ab provident, ex alias? Hic, sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repudiandae quibusdam quam repellendus ea? Nemo reprehenderit enim cupiditate deserunt unde, laudantium, totam odit adipisci pariatur et sed? Suscipit, quia quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel voluptatibus repellat, ipsa ipsam non excepturi corrupti architecto expedita praesentium rerum mollitia numquam? Perferendis quasi cum dolores. Molestiae, perferendis vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quisquam in est quasi, quam, nostrum ducimus corporis quia exercitationem, nesciunt molestiae reprehenderit tenetur dolores illum sapiente inventore veniam deleniti voluptates!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ducimus a, dolor quas molestias temporibus? Error, cumque sed tenetur laboriosam id eos illum consequuntur consequatur, deleniti provident dolorum esse enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo perferendis nihil voluptatem nobis fugiat! Similique voluptas quia eius magni reiciendis, pariatur adipisci. Aliquam fugit amet itaque architecto consectetur assumenda. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nemo quasi odit praesentium blanditiis laboriosam deleniti voluptatem eum vitae illo a soluta itaque sit ab provident, ex alias? Hic, sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repudiandae quibusdam quam repellendus ea? Nemo reprehenderit enim cupiditate deserunt unde, laudantium, totam odit adipisci pariatur et sed? Suscipit, quia quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel voluptatibus repellat, ipsa ipsam non excepturi corrupti architecto expedita praesentium rerum mollitia numquam? Perferendis quasi cum dolores. Molestiae, perferendis vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quisquam in est quasi, quam, nostrum ducimus corporis quia exercitationem, nesciunt molestiae reprehenderit tenetur dolores illum sapiente inventore veniam deleniti voluptates!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ducimus a, dolor quas molestias temporibus? Error, cumque sed tenetur laboriosam id eos illum consequuntur consequatur, deleniti provident dolorum esse enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo perferendis nihil voluptatem nobis fugiat! Similique voluptas quia eius magni reiciendis, pariatur adipisci. Aliquam fugit amet itaque architecto consectetur assumenda. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nemo quasi odit praesentium blanditiis laboriosam deleniti voluptatem eum vitae illo a soluta itaque sit ab provident, ex alias? Hic, sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repudiandae quibusdam quam repellendus ea? Nemo reprehenderit enim cupiditate deserunt unde, laudantium, totam odit adipisci pariatur et sed? Suscipit, quia quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel voluptatibus repellat, ipsa ipsam non excepturi corrupti architecto expedita praesentium rerum mollitia numquam? Perferendis quasi cum dolores. Molestiae, perferendis vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quisquam in est quasi, quam, nostrum ducimus corporis quia exercitationem, nesciunt molestiae reprehenderit tenetur dolores illum sapiente inventore veniam deleniti voluptates!</p>
+</body>
+</html>
