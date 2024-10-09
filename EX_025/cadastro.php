@@ -1,1 +1,1 @@
-Cadastro recebi, aprenda PHP para saber mais.
+Cadastro recebido, aprenda PHP para saber mais.
