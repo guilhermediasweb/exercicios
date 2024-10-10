@@ -7,17 +7,41 @@
 </head>
 <body>
     <h1>Teste</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <label for="iest">Estado</label>
         <select name="estado" id="iest">
-            <optgroup label="Estados do Sul">
+            <option value="" selected>---Escolha---</option>
+            <optgroup label="Estados da Região Sul">
                 <option value="ES">Espirito Santo</option>
                 <option value="MG">Minas Gerais</option>
                 <option value="PR">Paraná</option>
                 <option value="SP">São Paulo</option>
             </optgroup>
+
+            <optgroup label="Estados da Região Centro-Oeste">
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="GO">Goiás</option>
+            </optgroup>
         </select>
 
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="PROF">Professor</option>
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="INS">Instrutor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">Mensagem:</label> <br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem aqui">
+
+            </textarea>
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Resetar">
